@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Aux Mono';
+    src: url('AuxMono-Regular.ttf');
+}
+
+#programacao {
+    background-color: #383A37;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+}
+
+#programacao h1 {
+    font-variation-settings: "wght" 850, "wdth" 61, "slnt" -10, "opsz" 88, "GRAD" -76;
+}
+
+#programacao p, #programacao h4 {
+    font-family: 'Aux Mono', monospace;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.horas {
+    text-align: left;
+}
+
+.hora {
+    border-top: 2px dotted white;
+    border-right: 2px solid white;
+    min-height: 50px;
+    max-height: 150px;
+}
+
+.eventos {
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+ul {
+    font-family: 'Aux Mono';
+    font-size: 12px;
+}
+
+ul li {
+    text-decoration: underline;
+}
+
+.evento {
+    min-height: 50px;
+    min-width: 0 !important;
+}
+
+.especiais {
+    background-color: #336CFF;
+}
+
+.oficina {
+    background-color: white;
+    color: #CF3924;
+}
+
+.mesa-redonda, .palestra {
+    background-color: #CF3924;
+}
+
+.max_1x {
+    height: 150px;
+}
+
+.max_2x {
+    height: 300px;
+}
+
+.max_3x {
+    height: 450px;
+}
+
+.max_4x {
+    height: 600px;
+}
+
+@media (max-width: 480px) {
+    .hora {
+        max-height: 220px;
+    }
+
+    .max_1x {
+        height: 220px;
+    }
+
+    .max_2x {
+        height: 440px;
+    }
+
+    .max_3x {
+        height: 660px;
+    }
+
+    .max_4x {
+        height: 880px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .hora p {
+        font-size: 10px;
+    }
+  }
+
+.accordion-button {
+    background-color: #383A37 !important;
+    font-family: 'Aux Mono';
+    color: white;
+    border-bottom: 3px solid #CF3924;
+}
+
+
+.accordion-button:focus {
+box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+color: white;
+background-color: #CF3924;
+}
+
+.accordion, .accordion-body {
+    background-color: #383A37;
+    color: white;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+  }
+
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #CF3924!important;
+      color:#FFF !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  }
+
+  .accordion-button:focus {
+    z-index: 3;
+    border-color: #CF3924 !important;
+    outline: 0;
+    box-shadow: 0 0 0 2px #CF3924 !important;
+  }
