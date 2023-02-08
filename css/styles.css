@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: 'Aux Mono';
+  src: url('../assets/font/AuxMono-Regular.ttf');
+}
 /*!
 * Start Bootstrap - Creative v7.0.6 (https://startbootstrap.com/theme/creative)
 * Copyright 2013-2022 Start Bootstrap
@@ -62,11 +66,6 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-}
-
-@font-face {
-  font-family: 'Aux Mono';
-  src: url(../assets/font/AuxMono.TTF);
 }
 
 *,
@@ -11725,4 +11724,8 @@ ul li {
 
 .font-12 {
   font-size: 12px;
+}
+
+.arrows-carousel {
+  width: 1rem;
 }
