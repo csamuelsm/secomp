@@ -1,23 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
         <title>SeComp UFCA - 2023</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+        <!-- Favicon-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+        <!-- SimpleLightbox plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <link href="https://fonts.cdnfonts.com/css/roboto-flex" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
-        <link rel="stylesheet" href="assets/style.css" type="text/css"/>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-
-    <body>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <img src="assets/logo.png" alt="secomp_logo" href="#" width="100">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                        <li class="nav-item font-12"><a class="nav-link" href="#convidados">Convidados</a></li>
+                        <li class="nav-item font-12"><a class="nav-link" href="#programacao">Programação</a></li>
+                        <li class="nav-item font-12"><a class="nav-link" href="#inscricao">Inscreva-se</a></li>
+                        <li class="nav-item font-12"><a class="nav-link" href="#projeto">Projetos</a></li>
+                        <li class="nav-item font-12"><a class="nav-link" href="#valorant">Torneio de Valorant</a></li>
+                        <li class="nav-item font-12"><a class="nav-link" href="#local">Localização</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 h-100">
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-start">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-roboto"><span class="destaque">1ª SEMANA DA<br> COMPUTAÇÃO</span> <span class="titulo-roboto">DA UNIVERSIDADE FEDERAL DO CARIRI</span></h1>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white font-auxmono">13 A 17 DE MARÇO</p>
+                    </div>
+                    <div class="col-lg-8 align-self-baseline text-center">
+                        <a class="btn btn-primary btn-xl mt-0" href="#inscricao">Inscreva-se</a><br><br>
+                        <a class="btn btn-secondary btn-xl mt-0" href="#local">Localização</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="page-section bg-secondary" id="convidados">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="text-red titulo-roboto mt-0"><b>CONHEÇA NOSSOS CONVIDADOS</b></h2><br>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2 carrossel-icon">
+                    <img src="assets/prev.png" width="50" alt="<" href="#carouselExampleControls" data-slide="prev">
+                </div>
+                <div id="carouselExampleControls" class="carousel slide col-lg-8" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                            <div class="col-lg-3">
+                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 carrossel-icon">
+                    <img src="assets/next.png" width="50" alt=">" href="#carouselExampleControls" data-slide="next">
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="convidado1" tabindex="-1" role="dialog" aria-labelledby="convidado1Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-lg-12 text-center">
+                                    <br><img class="d-block w-100 img-convidado" src="assets/convidado.jpeg" alt="convidado"><br>
+                                    <h3 class="modal-title titulo-roboto text-red uppercase" id="exampleModalLongTitle"><b>Convidado 1</b></h3><br>
+                                    <p class="font-12 uppercase">Hacker, cearense, escorpião e filho de hippies. Idealizador do FeliciLab, Laboratório de Inovação no SUS do Ceará. Ama a @geciola
+                                        e é pai do Karim e do Raoni.</p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="programacao" class="d-flex flex-column align-items-center">
             <div class="col-md-10 col-12 py-5">
-                <h1>PROGRAMAÇÃO</h1>
+                <h1 class="text-white font-roboto font-bold mt-0">PROGRAMAÇÃO</h1>
                 <div class="accordion accordion-flush my-5" id="accordionFlush">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="segunda">
@@ -513,5 +631,121 @@
 
             </div>
         </section>
+        <section class="page-section bg-primary" id="inscricao">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white destaque mt-0">INSCRIÇÃO</h2>
+                        <p class="text-white mb-4 font-12">CLIQUE NO BOTÃO ABAIXO<br>PARA SE INSCREVER NA SECOMP.<br>É RAPIDINHO!</p>
+                        <a class="btn btn-primary btn-xl" href="#">Inscreva-se!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="row">
+            <section class="page-section bg-secondary col-md-6" id="projeto">
+                <div class="container px-4 px-lg-5 px-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-8 text-start">
+                            <h2 class="text-red mt-0"><span class="titulo-roboto">É ALUNO DA UFCA E</span> <span class="text-red destaque mt-0">QUER APRESENTAR UM PROJETO SEU</span> <span class="titulo-roboto">NA SECOMP?</span></h2>
+                            <p class="text-red mb-4 font-12">A EXPOSIÇÃO DOS PROJETOS DOS ALUNOS É O MOMENTO DE VOCÊ MOSTRAR O QUE SABE FAZER PARA OS OUTROS CURSOS E PARA A COMUNIDADE EXTERNA. ALÉM DISSO, É UMA ÓTIMA OPORTUNIDADE DE EXIBIR SEUS PROJETOS PARA OUTROS PROFISSIONAIS E DONOS DE EMPRESAS QUE FREQUENTARÃO O EVENTO!</p>
+                        </div>
+                        <div class="col-lg-8 text-center">
+                            <a class="btn btn-red btn-xl" href="#">INSCREVER PROJETO</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section bg-valorant col-md-6 valorant-bg" id="valorant">
+                <div class="container px-4 px-lg-5 px-5">
+                    <div class="row gx-4 gx-lg-5 justify-content-center">
+                        <div class="col-lg-8 text-start">
+                            <h2 class="text-white destaque mt-0">BORA UM VAVAZINHO?<br>
+                                <span class="text-white titulo-roboto mt-0">VAI TER PRÊMIO EM DINHEIRO!</span>
+                            </h2>
+                            <p class="text-white mb-4 font-12">CONFIRA O REGULAMENTO ABAIXO E INSCREVA O SEU TIME!</p>
+                        </div>
+                        <div class="col-lg-8 text-center">
+                            <a class="btn btn-primary btn-xl" href="#">REGULAMENTO</a><br><br>
+                            <a class="btn btn-red btn-xl" href="#">INSCREVER TIME</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="page-section bg-secondary" id="apoio">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-red titulo-roboto mt-0"><b>APOIO E REALIZAÇÃO</b></h2>
+                    </div>
+                </div>
+                <br>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-3 text-center">
+                        <img class="d-block w-100" src="assets/cacomp.png" alt="ca">
+                    </div>
+                    <div class="col-lg-3 text-center">
+                        <img class="d-block w-100" src="assets/UFCA_-_logo_uma_cor.png" alt="ufca">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-secondary" id="patrocinadores">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-red titulo-roboto mt-0"><b>PATROCINADORES</b></h2>
+                    </div>
+                </div>
+                <br>
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-3 text-center">
+                        <img class="d-block w-100" src="assets/paguru.png" alt="pangaru">
+                    </div>
+                </div>
+                <br><br>
+                <div class="row carrossel-icon">
+                    <div class="col-lg-3 imagem-center">
+                        <img class="d-block w-100" src="assets/mkacademy.png" alt="mk">
+                    </div>
+                    <div class="col-lg-3 imagem-center">
+                        <img class="d-block w-50" src="assets/snake_games.jpg" alt="mk">
+                    </div>
+                    <div class="col-lg-3 imagem-center">
+                        <img class="d-block w-50" src="assets/kadoshtec.png" alt="mk">
+                    </div>
+                    <div class="col-lg-3 imagem-center">
+                        <img class="d-block w-50" src="assets/indigital.png" alt="mk">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page-section bg-primary" id="local">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-white font-roboto font-bold mt-0">LOCALIZAÇÃO</h2>
+                        <p class="text-white-75 mb-4 uppercase">Universidade Federal do Cariri - Av. Ten. Raimundo Rocha,<br> 1639 - Cidade Universitária, Juazeiro do Norte - CE, <br>63048-080</p>
+                        <br>
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8611448238985!2d-39.30701174953397!3d-7.256639873279284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a1786b3854e1b7%3A0xd338476d79979708!2sUFCA%20-%20Universidade%20Federal%20do%20Cariri%20-%20Campus%20Juazeiro%20do%20Norte!5e0!3m2!1spt-BR!2sbr!4v1675867780755!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-gray py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted uppercase">Copyright &copy; 2023 - Secomp</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- SimpleLightbox plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
