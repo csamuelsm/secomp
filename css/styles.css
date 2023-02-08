@@ -56,7 +56,7 @@
   --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: AuxMono;
+  --bs-body-font-family: 'Aux Mono';
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -65,8 +65,8 @@
 }
 
 @font-face {
-  font-family: AuxMono;
-  src: url(../assets/font/auxmono.TTF);
+  font-family: 'Aux Mono';
+  src: url(../assets/font/AuxMono.TTF);
 }
 
 *,
@@ -83,7 +83,7 @@
 
 body {
   margin: 0;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -109,7 +109,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-weight: 500;
   line-height: 1.2;
 }
@@ -257,7 +257,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: auxMono;
+  font-family: 'Aux Mono';
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
@@ -3011,7 +3011,7 @@ textarea.form-control-lg {
 
 .btn {
   display: inline-block;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -5792,7 +5792,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5894,7 +5894,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7623,7 +7623,7 @@ textarea.form-control-lg {
 }
 
 .font-monospace {
-  font-family: AuxMono !important;
+  font-family: 'Aux Mono' !important;
 }
 
 .font-italic {
@@ -7638,8 +7638,8 @@ textarea.form-control-lg {
   font-family: 'Roboto Flex', sans-serif;
 }
 
-.font-auxmono {
-  font-family: AuxMono;
+.font-AuxMono {
+  font-family: 'Aux Mono';
 }
 
 .fs-1 {
@@ -11395,13 +11395,13 @@ hr.divider-light {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-weight: 700;
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #fff;
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-size: 0.9rem;
   padding: 0.75rem 0;
 }
@@ -11506,7 +11506,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
 }
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-category, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-category {
-  font-family: AuxMono;
+  font-family: 'Aux Mono';
   font-size: 0.85rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -11638,15 +11638,15 @@ header.masthead h1, header.masthead .h1 {
     }
 
     #programacao h4 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     #programacao p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
-    .hora p {
-        font-size: 10px;
+    .hora > p {
+        font-size: 9px;
     }
   }
 
@@ -11655,6 +11655,10 @@ header.masthead h1, header.masthead .h1 {
     font-family: 'Aux Mono';
     color: white;
     border-bottom: 3px solid #CF3924;
+}
+
+.carousel-item {
+  cursor: pointer;
 }
 
 
@@ -11712,7 +11716,7 @@ ul li {
 
 .titulo-roboto {
   font-family: 'Roboto Flex', sans-serif;
-  font-variation-settings: "wght" 600, "wdth" 34, "slnt" -10, "opsz" 88, "GRAD" -76;
+  font-variation-settings: "wght" 600, "wdth" 45, "slnt" -10, "opsz" 88, "GRAD" -70;
 }
 
 .uppercase {
