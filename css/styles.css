@@ -11729,3 +11729,8 @@ ul li {
 .arrows-carousel {
   width: 1rem;
 }
+
+.soon {
+  height: 320px;
+  width: auto;
+}
