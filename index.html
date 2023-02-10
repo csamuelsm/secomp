@@ -11,7 +11,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -63,12 +63,13 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-12 text-center">
                         <h2 class="text-red titulo-roboto mt-0"><b>CONHEÇA NOSSOS CONVIDADOS</b></h2><br>
+                        <p class="font-12 uppercase">Veja os convidados que já têm presença confirmada na 1ª Semana da Computação da UFCA!</p>
                     </div>
                 </div>
             </div>
             <!-- CARROSSEL DE CONVIDADOS -->
             <!-- DESCOMENTAR QUANDO FOR LIBERAR OS CONVIDADOS E PREENCHER COM OS DADOS E FOTOS -->
-            <!--<div class="row">
+            <div class="row">
                 <div class="col col-lg-2 carrossel-icon">
                     <img src="assets/prev.png" class="arrows-carousel" alt="<" href="#carouselExampleControls" data-slide="prev">
                 </div>
@@ -76,47 +77,45 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-3 mx-0">
-                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            <div class="col-4 mx-0">
+                                <img class="d-block w-100" src="assets/convidados/lavinia_morais.jpg" alt="Lavinia Morais" data-toggle="modal" data-target="#lavinia_morais">
                             </div>
-                            <div class="col-3 mx-0">
-                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            <div class="col-4 mx-0">
+                                <img class="d-block w-100" src="assets/convidados/ludmilla_galvao.jpg" alt="Ludmilla Galvão" data-toggle="modal" data-target="#ludmilla_galvao">
                             </div>
-                            <div class="col-3 mx-0">
-                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
+                            <div class="col-4 mx-0">
+                                <img class="d-block w-100" src="assets/convidados/joao_abreu.jpg" alt="João Abreu" data-toggle="modal" data-target="#joao_abreu">
                             </div>
-                            <div class="col-3 mx-0">
+                            <!--<div class="col-3 mx-0">
                                 <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
-                            </div>
+                            </div>-->
                         </div>
                       </div>
-                      <div class="carousel-item">
+                      <!--<div class="carousel-item">
                         <div class="row">
-                            <div class="col-3 mx-0">
+                            <div class="col-4 mx-0">
                                 <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
                             </div>
-                            <div class="col-3 mx-0">
+                            <div class="col-4 mx-0">
                                 <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
                             </div>
-                            <div class="col-3 mx-0">
+                            <div class="col-4 mx-0">
                                 <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
                             </div>
-                            <div class="col-3 mx-0">
-                                <img class="d-block w-100" src="assets/convidado.jpeg" alt="First slide" data-toggle="modal" data-target="#convidado1">
-                            </div>
+
                         </div>
-                      </div>
+                      </div>-->
                     </div>
                   </div>
                   <div class="col col-lg-2 carrossel-icon">
                     <img src="assets/next.png" class="arrows-carousel" alt=">" href="#carouselExampleControls" data-slide="next">
                 </div>
-            </div>-->
-            <div class="row justify-content-center">
-                <img class="soon" src="assets/carregando-white-background.png" alt="carregando"/>
             </div>
+            <!--<div class="row justify-content-center">
+                <img class="soon" src="assets/carregando-white-background.png" alt="carregando"/>
+            </div>-->
             <!-- Modal -->
-            <div class="modal fade" id="convidado1" tabindex="-1" role="dialog" aria-labelledby="convidado1Title" aria-hidden="true">
+            <div class="modal fade" id="lavinia_morais" tabindex="-1" role="dialog" aria-labelledby="lavinia_morais" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -127,10 +126,85 @@
                         <div class="container px-4 px-lg-5">
                             <div class="row gx-4 gx-lg-5 justify-content-center">
                                 <div class="col-lg-12 text-center">
-                                    <br><img class="d-block w-100 img-convidado" src="assets/convidado.jpeg" alt="convidado"><br>
-                                    <h3 class="modal-title titulo-roboto text-red uppercase" id="exampleModalLongTitle"><b>Convidado 1</b></h3><br>
-                                    <p class="font-12 uppercase">Hacker, cearense, escorpião e filho de hippies. Idealizador do FeliciLab, Laboratório de Inovação no SUS do Ceará. Ama a @geciola
-                                        e é pai do Karim e do Raoni.</p><br>
+                                    <br><img class="d-block w-100 img-convidado" src="assets/convidados/lavinia_morais.jpg" alt="convidado"><br>
+                                    <h3 class="modal-title titulo-roboto text-red uppercase" id="exampleModalLongTitle">Lavínia Morais</h3>
+                                    <p class="font-12 uppercase">Lead de UX na gameplan GG, mentora de UI/UX e conselheira suplente do CEPC na linguagem de jogos.</p>
+                                    <div class="row">
+                                        <!--REDES SOCIAIS-->
+                                        <div class="col">
+                                            <a class="font-12 color-black" href="https://www.linkedin.com/in/lavinia-under/?trk=people-guest_people_search-card&originalSubdomain=br" target="_blank"><p><i class="bi bi-linkedin"></i> LinkedIn</p></a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="font-12 color-black" href="https://github.com/LaviniaUnder" target="_blank"><p><i class="bi bi-github"></i> Github</p></a>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="ludmilla_galvao" tabindex="-1" role="dialog" aria-labelledby="ludmilla_galvao" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-lg-12 text-center">
+                                    <br><img class="d-block w-100 img-convidado" src="assets/convidados/ludmilla_galvao.jpg" alt="convidado"><br>
+                                    <h3 class="modal-title titulo-roboto text-red uppercase" id="exampleModalLongTitle">Ludmilla Galvão</h3>
+                                    <p class="font-12 uppercase">Bacharela em Computação pela UFMT,  mestra em Informática pela UFPR e atualmente doutoranda em Computação pela UFPR.  Atua a 5 anos em pesquisa sobre game design e acessibilidade nos jogos, além de trabalhar como divulgadora científica, ilustradora e gamedev.</p>
+                                    <div class="row">
+                                        <!--REDES SOCIAIS-->
+                                        <div class="col">
+                                            <a class="font-12 color-black" href="https://www.linkedin.com/in/ludmillagalvao/?trk=people-guest_people_search-card&originalSubdomain=br" target="_blank"><p><i class="bi bi-linkedin"></i> LinkedIn</p></a>
+                                        </div>
+                                        <div class="col">
+                                            <a class="font-12 color-black" href="https://twitter.com/ludmilla_galvao" target="_blank"><p><i class="bi bi-twitter"></i> Twitter</p></a>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="joao_abreu" tabindex="-1" role="dialog" aria-labelledby="joao_abreu aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-lg-12 text-center">
+                                    <br><img class="d-block w-100 img-convidado" src="assets/convidados/joao_abreu.jpg" alt="convidado"><br>
+                                    <h3 class="modal-title titulo-roboto text-red uppercase" id="exampleModalLongTitle">João Abreu</h3>
+                                    <p class="font-12 uppercase">Professor do IFCE-Campus Crato - Mestre em Ciência da Computação - Especialista em Informática Educativa - Áreas de interesse: Interação Humano Computador e Programação. Possui experiência em desenvolvimento de software. Usa linguagens de programação como Flutter, Python entre outros recursos. Trabalha com Banco de Dados, usando MySQL, Firebase.</p>
+                                    <div class="row">
+                                        <!--REDES SOCIAIS-->
+                                        <div class="col">
+                                            <a class="font-12 color-black" href="https://br.linkedin.com/in/joao-alberto-brito-de-abreu-8b651324b" target="_blank"><p><i class="bi bi-linkedin"></i> LinkedIn</p></a>
+                                        </div>
+
+
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -332,7 +406,7 @@
                                                 <p>PALESTRA</p>
                                                 <h4>UX DESIGN EM JOGOS: BLA BLA BLA</h4>
                                                 <ul>
-                                                    <li>LAVÍNIA MORAIS</li>
+                                                    <li data-toggle="modal" data-target="#lavinia_morais">LAVÍNIA MORAIS</li>
                                                 </ul>
                                                 <p>AUDITÓRIO BEATA Mª DE ARAÚJO (BLOCO H)</p>
                                             </div>
@@ -418,9 +492,9 @@
                                         <div class="row align-items-center">
                                             <div class="evento col max_2x p-3 palestra">
                                                 <p>PALESTRA</p>
-                                                <h4>DESENVOLVIMENTO DE JOGOS COM ACESSIBILIDADE PARA PESSOAS SURDAS</h4>
+                                                <h4 class="uppercase">Acessibilidade e games: como desenvolver jogos inclusivos?</h4>
                                                 <ul>
-                                                    <li>LUDMILLA GALVÃO</li>
+                                                    <li data-toggle="modal" data-target="#ludmilla_galvao">LUDMILLA GALVÃO</li>
                                                 </ul>
                                                 <p>AUDITÓRIO BEATA Mª DE ARAÚJO (BLOCO H)</p>
                                                 <p>TRANSMISSÃO AO VIVO PELO YOUTUBE [LINK].</p>
@@ -493,9 +567,9 @@
                                         <div class="row">
                                             <div class="evento col max_2x p-3 palestra">
                                                 <p>PALESTRA</p>
-                                                <h4>ALGUMA COISA SOBRE UM APLICATIVO E CONSCIENTIZAÇÃO AMBIENTAL NO CARIRI</h4>
+                                                <h4 class="uppercase">Ecomapss: um projeto que envolve tecnologia e educação ambiental.</h4>
                                                 <ul>
-                                                    <li>JOÃO ALBERTO</li>
+                                                    <li data-toggle="modal" data-target="#joao_abreu">JOÃO ABREU</li>
                                                 </ul>
                                                 <p>AUDITÓRIO BEATA Mª DE ARAÚJO (BLOCO H)</p>
                                             </div>

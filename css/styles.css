@@ -11734,3 +11734,11 @@ ul li {
   height: 320px;
   width: auto;
 }
+
+.color-black {
+  color: #1a1e21;
+}
+
+.oficina li {
+  color: #CF3924;
+}
