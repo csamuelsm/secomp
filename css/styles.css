@@ -11742,3 +11742,7 @@ ul li {
 .oficina li {
   color: #CF3924;
 }
+
+.border_bottom {
+  border-bottom: 2px dotted white;
+}
